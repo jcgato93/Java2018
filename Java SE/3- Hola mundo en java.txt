@@ -1,0 +1,24 @@
+primero se debe crear un archivo con la extension 
+.java , si es el archivo principal , es decir por 
+donde inicia el programa debe llevar un metodo main
+
+ejemplo : 
+
+    publilc class HolaMundo{
+
+        publilc static void main(String[] args){
+            System.out.println("Hola mundo!");
+        }
+    }
+
+
+luego se debe compilar el archivo , para ello 
+se utiliza el siguiente comando 
+
+    javac  archivo.java
+
+Este crea otro archivo con la extension .class el cual
+puede ser interpretado por la maquina virtual de java.
+Para ello se ejecuta el comando 
+
+    java archivo   //sin la extension .class
