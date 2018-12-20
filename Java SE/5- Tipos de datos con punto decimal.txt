@@ -1,0 +1,8 @@
+Usa float/decimal cuando los valores que utilices no 
+sean exactos por naturaleza por ejemplo medidas de longitud, 
+velocidad, volumen y en general datos científicos son almacenados en estos tipos de dato.
+
+
+float=>Precisión=7digitos,       tamaño=32bits   Rango  1.40129846432481707e-45  a  3.40282346638528860e+38
+double=>Precision=15-16digitos,  tamaño=64bits   Rango 4.94065645841246544e-324d    a   1.79769313486231570e+308d
+decimal=>Precision=28-29digitos, tamaño=128bits
