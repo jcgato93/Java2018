@@ -1,0 +1,13 @@
+1- Java es sensible a mayúsculas y minúsculas.
+2- Pueden comenzar con _ o $
+3- No pueden comenzar con numeros
+4- Las constantes se escriben en Mayúsculas
+
+5- CamelCase -Uper Camel Case para los nombres de las clases y nombres de archivos, 
+es decir que la primera letra que escriba debe ser mayúscula. 
+
+Lower Camel Case - para nombres de variables, objetos y metodos, 
+quiere decir que la primera letra que escriba debe ser en minúscula.
+
+
+todo en mayúscula cuando sean constantes
