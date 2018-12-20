@@ -1,0 +1,13 @@
+En la programación hay situaciones en las que se necesita 
+cambiar el tipo de dato en otro. 
+Para hacerlo podemos usar cast es decir que tomamos 
+un dato y lo transformamos en otro tipo de datos .
+
+Se puede realizar el cast para todos los tipos de datos primitivos, 
+con excepción de boolean, por la naturalidad del tipo de dato boolean.
+
+
+Ejemplo:
+
+    double d = 86.45;
+    int i = (int) d;
