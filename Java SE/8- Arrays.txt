@@ -1,0 +1,46 @@
+Los arreglos son objetos en los que podemos guardar mas de una variable.
+
+La estructura de declaración de un arreglo es la siguiente:
+
+tipo_dedato [] nombre_variable; //tambien puede declararse “tipo_dedato nombre_variable[];”
+
+ejemplos:
+
+String array[]; //donde array es un arreglo que guardara variables tipo Strings
+2
+double array2[]; //donde array2 es un arreglo que guardara variabels tipo double
+3
+int [] array3; //donde array3 es un arreglo que guardara variables tipo int(numericas)
+
+
+en Java 
+
+-Se definen usando corchetes después del tipo:
+        <tipo>[] <nombre>;
+
+        int[] Arreglo;
+
+        <tipo> <nombre>[];
+
+        int Arreglo[];
+
+
+-Si queremos darles un valor, podemos hacerlo usando las llaves
+
+        <tipo>[] <nombre> = {valor_1, valor_2,…};
+
+        int[] Arreglo = {1, 2, 3};
+
+
+-También podemos optar por indicar su tamaño:
+   
+   <tipo>[] <nombre> = new <tipo> [<tamaño>];
+
+    int[] Arreglo = new int[3];
+
+
+-Se puede especificar las variables en el arreglo
+
+    <tipo>[] <nombre> = new <tipo> [<tamaño>]{variable_1, variable_2, variable_3};
+
+    int[] Arreglo = new int[]{1, 2, 3};
