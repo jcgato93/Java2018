@@ -1,0 +1,4 @@
+Para la busqueda de un elemento se utilizan 
+los indices, estos son como las cordenadas 
+que tiene cada posicion de un array
+y estas inician desde 0
