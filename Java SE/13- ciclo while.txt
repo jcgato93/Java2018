@@ -1,0 +1,17 @@
+La instrucciones del ciclo while()
+sirve para indicar que un cierto bloque de codigo 
+se ejecute mientras se cumpla cierta condicion
+
+
+while(1<2){
+ //instrucciones
+}
+
+
+otra forma de usarlo con un indice seria
+
+int e=0;
+		while(++e < 4) {
+			
+			System.out.println(e);			
+		}
