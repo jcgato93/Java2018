@@ -1,0 +1,69 @@
+La sentencia if/else nos permite ejecutar un bloque de código o no, 
+dependiendo de una condición que se evalúa justo antes de este bloque.
+Esta condición se evalúa a un valor booleano, es decir, 
+su resultado solo puede tomar dos valores, true o false.
+
+ejemplo en java
+
+        if(condicion){
+            //instrucciones
+        }else{
+            //instrucciones
+        }
+
+
+
+La sentencia switch
+
+Esta sentencia permite elegir múltiples caminos a seguir por 
+el flujo de ejecución de nuestro programa.
+En este caso, el camino a seguir se selecciona 
+basándose en el valor de una expresión que se evalúa a un valor entero
+
+
+    int mes = 8;
+		switch (mes)
+		{
+			
+		case1:
+			System.out.println("Enero");
+			break;
+		case2:
+			System.out.println("Febrero");
+			break;
+		case3:
+			System.out.println("Marzo");
+			break;
+		case4:
+			System.out.println("Abril");
+			break;
+		case5:
+			System.out.println("Mayo");
+			break;
+		case6:
+			System.out.println("Junio");
+			break;
+		case7:
+			System.out.println("Julio");
+			break;
+		case8:
+			System.out.println("Agosto");
+			break;
+		case9:
+			System.out.println("Septiembre");
+			break;
+		case10:
+			System.out.println("Octubre");
+			break;
+		case11:
+			System.out.println("Noviembre");
+			break;
+		case12:
+			System.out.println("Diciembre");
+			break;
+			
+		default:
+		
+			System.out.println("Mes incorrecto");
+			break;
+		}
