@@ -1,0 +1,53 @@
+Para manejar el flujo de ejecucion 
+dentro de un bucle como lo son 
+for , while , do-while o el foreach
+
+o dentro de condicionales como el if/else
+
+utilizamos las instrucciones de  break, continue y return
+
+
+Break
+La sentencia “break” termina el bucle inmediatamente, 
+y el control del programa se mueve a la siguiente sentencia 
+después del bucle.
+
+ejemplo:
+
+        while(testExpression){
+            // codes
+            if(condition to break){
+     ---------  break;
+     |       }
+     |  }
+     |
+     |---->
+
+
+
+Continue
+La sentencia “continue” salta la iteración actual de un bucle.
+Cuando se ejecuta la sentencia continue, 
+el control del programa salta al final del bucle.
+
+ejemplo:
+
+
+     |-----> while(testExpression){
+     |       // codes
+     |       if(condition to break){
+     ---------  continue;
+            }
+       }
+     
+
+
+Return 
+la declaracion de retorno se utliza para devolver explicitamente desde un metodo.
+Es decir, hace que un control de programa se transfiera de nuevo al que llamo
+al metodo 
+
+ejemplo: 
+
+    if(t)
+        return;
