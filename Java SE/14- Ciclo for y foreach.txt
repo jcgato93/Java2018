@@ -1,0 +1,60 @@
+Con el ciclo for() al igual que con el 
+ciclo while() lo utilizamos para indicar 
+que cierto bloque de codigo se ejecute 
+n cantidad de veces
+
+pero a diferencia del while, el for es un poco mas 
+estructurado y da un mejor control con menos lineas 
+de codigo
+
+ejemplo 
+
+    for(inicializacion;condicion;indremento){
+
+    }
+
+
+
+en java 
+
+    for(int i=0; i<0; i++){
+        System.out.println("es la vuelta :"+i)
+    }
+
+    // output
+    es la vuelta 0
+    es la vuelta 1
+    es la vuelta 2
+    es la vuelta 3
+    es la vuelta 4
+    es la vuelta 5
+    es la vuelta 6
+    es la vuelta 7
+    es la vuelta 8
+    es la vuelta 9
+
+
+
+
+Foreach
+
+este se utiliza para el mismo proposito 
+con la diferencia de que se utiliza frecuentemente 
+para recorrer arrays
+
+en dicho casa ejecutara un bloque de codigo por cada
+elemento en el objeto que se pase como parametro
+
+ejemplo
+
+  int[] numeros = {1,2,3}
+
+    foreach(int item : numeros ){
+
+        System.out.println(item)
+    }
+
+    // output
+    1
+    2
+    3
